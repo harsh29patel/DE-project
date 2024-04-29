@@ -1,0 +1,274 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  .logo {
+    width: 50px;
+    height: 50px;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  li {
+    margin-right: 2rem;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .login-btn  {
+    background-color: #fff;
+    color: #333;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+  }
+  .register{
+    background-color: #fff;
+    color: #333;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+  }
+  .hero {
+    background-image: url('backgroud.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 2rem;
+  }
+  
+  .hero-content {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  h1 {
+    font-size: 3rem;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+  }
+ 
+
+  p {
+    font-size: 1.5rem;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .order-btn {
+    background-color: #fff;
+    color: #333;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .section-two {
+    background-image: url('your-background-image-url');
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+  }
+  
+  .paragraph {
+    color: #040303;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .section-three {
+    padding: 50px 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .image-container {
+    width: 30%;
+  }
+  
+  .image {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border-radius: 20px;
+  }
+  
+  .heading {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .text {
+    color: black;
+    text-align: center;
+  }
+
+  .section-four {
+    
+    padding: 50px 0;
+  }
+  
+  .container4 {
+    display: block;
+    text-align: center;
+    margin: auto;
+  }
+  
+  .heading4 {
+    color: #040303;
+    font-size: 3rem;
+    margin-bottom: 50px;
+  }
+  
+  .image-container {
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 50px;
+  }
+  
+  .image {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border-radius: 20px;
+  }
+  
+  .text {
+    text-align: center;
+  }
+
+  .section-five {
+    padding: 50px 0;
+  }
+
+
+  .aboutus {
+    background-color: #c8c7c7;
+    padding: 50px 0;
+  }
+  
+  .container5 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .text5 {
+    font-family: "Montserrat", sans-serif;
+    flex: 1;
+    color: #000;
+  }
+
+  .aboutus p{
+    color: #000;
+  }
+  
+  .image5 {
+    flex: 1;
+    text-align: right;
+    border-radius: 20px;
+  }
+  
+  .image5 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+  }
+
+  .container6 {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .contactus form {
+    display: inline-block;
+    margin-top: 7px;
+  }
+  
+  .contactus label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .contactus input[type="text"],
+  .contactus input[type="email"],
+  .contactus textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .contactus input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .contactus input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+
+
+  footer {
+    background-color: #333;
+    padding: 0px 0;
+    color: white;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .container7 {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  h2 {
+    font-family: "Montserrat", sans-serif;
+  }
+  

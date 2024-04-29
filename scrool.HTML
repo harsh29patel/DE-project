@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Scroll to Content</title>
+<style>
+    #content {
+        height: 1000px; /* Just for demonstration, replace with your actual content height */
+    }
+
+    .scroll-link {
+        display: block;
+        margin: 20px 0;
+        text-align: center;
+        text-decoration: none;
+        color: blue;
+    }
+</style>
+</head>
+<body>
+<a href="#content" class="scroll-link">Scroll to Content</a>
+<div id="content">
+    <!-- Your content here -->
+    <p>This is the content you want to scroll to.</p>
+</div>
+<script>
+    // Function to handle smooth scrolling when clicking the link
+    document.addEventListener('DOMContentLoaded', function() {
+        document.querySelectorAll('.scroll-link').forEach(function(anchor) {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+
+                // Get the target element to scroll to
+                const targetId = this.getAttribute('href').substring(1);
+                const targetElement = document.getElementById(targetId);
+
+                // Scroll to the target element
+                targetElement.scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    });
+</script>
+</body>
+</html>
